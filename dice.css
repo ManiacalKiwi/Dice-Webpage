@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-signup {
+    display: flex;
+    align-items: center;
+}
+
+.search-signup input[type="search"] {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px;
+}
+
+aside h2, section h2, section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside div {
+    margin-bottom: 10px;
+}
+
+aside img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+aside input[type="number"] {
+    width: 50px;
+}
+
+section textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dice-tray {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    flex: 2;
+}
+
+section textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eaeaea;
+}
+
