@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #333;
 }
 
 header {
@@ -8,7 +10,8 @@ header {
     align-items: center;
     padding: 10px;
     background-color: #7f2323;
-    border-bottom: 1px solid #000000;
+    color: #ffffff;
+    border-bottom: 2px solid #4f1616;
 }
 
 nav ul {
@@ -23,7 +26,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
 }
 
 .search-signup {
@@ -32,7 +39,9 @@ nav ul li a {
 }
 
 .search-signup input[type="search"] {
+    padding: 5px;
     margin-right: 10px;
+    border: 1px solid #cccccc;
 }
 
 main {
@@ -44,11 +53,17 @@ main {
 aside {
     flex: 1;
     margin-right: 20px;
+    padding: 20px; 
+    background-color: #7f2323; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: #fff;
 }
 
 aside h2, section h2, section h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #7f2323;
 }
 
 aside div {
@@ -62,12 +77,14 @@ aside img {
 
 aside input[type="number"] {
     width: 50px;
+    border: 1px solid #cccccc;
 }
 
 section textarea {
-    width: calc(100% - 20px);
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1300px;
     height: 100px;
-    margin-bottom: 20px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -77,22 +94,15 @@ section textarea {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-}
-
-section {
-    flex: 2;
-}
-
-section textarea {
-    width: 100%;
-    height: 100px;
-    margin-bottom: 20px;
+    background-color: #e0e0e0;
 }
 
 footer {
     text-align: center;
     padding: 10px;
     background-color: #606060;
-    border-top: 1px solid #727272;
+    color: #ffffff;
+    border-top: 2px solid #727272;
 }
+
 
