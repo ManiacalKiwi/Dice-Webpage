@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Dice</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="dice.html">Home</a></li>
+                <li><a href="customize.html">Customize</a></li>
+                <li><a href="#">Uploads</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+            <div class="search-signup">
+                <input type="search" placeholder="Searchbar">
+                <button onclick="location.href='login.html';">Sign-up/Login</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+ 	<section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+	      <p><strong>Email:</strong> <a href="mailto:TMELIN86906@uat.edu">TMELIN86906@uat.edu</a></p>
+	     </section>
+        <section class="help-ticket">
+    <h2>Submit a Help Ticket</h2>
+    <form action="submit_ticket.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p>Copyright © 2023 Pro Dice</p>
+    </footer>
+</body>
